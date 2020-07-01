@@ -68,7 +68,7 @@ nav .menu a:hover{
 
 .inicio{
     height: 90vh;
-    background-image: linear-gradient(to top, #13052bbd 0%, #081125 100%), url(/src/img/umberto-jXd2FSvcRr8-unsplash.jpg);
+    background-image: linear-gradient(to top, #13052bbd 0%, #081125 100%), url(../img/umberto-jXd2FSvcRr8-unsplash.jpg);
     color:#000;
     background-repeat: no-repeat;
     background-size: cover;
