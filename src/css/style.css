@@ -537,6 +537,7 @@ svg.ola-contacto{
 }
 .redes .links-redes{  
   margin-left: 3rem;
+  margin-top: 4rem;
 }
 .redes .links-redes i.fa-facebook:hover{
   color: #3b5998;
@@ -719,6 +720,28 @@ svg.ola-contacto{
     
   }
  
+}
+/*seccion nosotros*/
+.nosotros{
+  height: 90vh;
+  width: 100%;
+}
+.valores{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.valor{
+  border: 1px solid black;
+  width: 33.3%;
+  height:20rem;
+
+}
+.valor .img{
+  color: #134ecc;
+  font-size: 5rem;
+  cursor: pointer;
 }
 
 
@@ -951,6 +974,14 @@ svg.ola-contacto{
 
   .contenido-slider h2{
       font-size: 23px;
+  }
+  .redes .links-redes i{
+    color: #13183a;
+    margin-right: 1rem;
+    font-size: 4rem;
+    margin-top: 0rem;
+    transition: 1s;
+  
   }
 }
 
