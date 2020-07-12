@@ -1205,22 +1205,31 @@ hr.linea3{
     width: 80%;
     
 }
+  .valor p{
+    margin-left: 0;
+    margin-right: 0;
+  }
 .nosotros{
   margin-bottom: 40rem;
 }
 }
 @media(max-width:499px){
   .valor{
-    margin-bottom: 8rem;
-    width: 80%;
-    
-}
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 4rem;
+  }
+  .valores{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 .nosotros{
-  margin-bottom: 50rem;
+  margin-bottom: 43rem;
 }
 
 }
-@media(max-width:330px){
+@media(max-width:335px){
   .valor{
     margin-bottom: 13rem;
     width: 80%;
@@ -1228,6 +1237,13 @@ hr.linea3{
 }
 .nosotros{
   margin-bottom: 70rem;
+}
+.valor p, h3, img{
+  margin-left: 0;
+  margin-right: 0rem;
+}
+.valores{
+  width: 100%;
 }
 
 }
@@ -1240,4 +1256,34 @@ hr.linea3{
 .nosotros{
   margin-bottom: 90rem;
 }
+.valor{
+  
+  margin-left: 0;
+  margin-right: 0;
+}
+.valores{
+  width: 100%;
+}
+}
+@media(max-width:350px){
+  .valor{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .valores{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media(max-width:400px){
+  .valor{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .valores{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
