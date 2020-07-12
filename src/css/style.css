@@ -1231,3 +1231,13 @@ hr.linea3{
 }
 
 }
+@media(max-width:240px){
+  .valor{
+    margin-bottom: 19rem;
+    width: 80%;
+    
+}
+.nosotros{
+  margin-bottom: 90rem;
+}
+}
